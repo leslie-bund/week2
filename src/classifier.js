@@ -69,7 +69,7 @@ function classifier(input) {
     return output;
 
     // Closed functions
-    function getStudentInfo (age , ind) {
+    function getStudentInfo (age) {
         for (let objs of dummyInput) {
             if (age === objs.age) {
                 return dummyInput.splice(dummyInput.indexOf(objs), 1);
